@@ -1,4 +1,4 @@
-# <center> 🚧 PROJECT_NAME_HERE in progress... 🚧</center>
+<h1 align="center">🚧 PROJECT_NAME_HERE in progress... 🚧</h1>
 
 <div align='center'>
 
