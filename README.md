@@ -60,7 +60,6 @@ npm run storybook
 ```
 
 #### <a id='pt-br-estrutura' style="text-decoration: none; color: inherit;">📂 Estrutura</a>
-
 ```
 │ public/
 │   └── ...
@@ -117,7 +116,6 @@ npm run storybook
 ```
 
 #### <a id='en-structure' style="text-decoration: none; color: inherit;">📂 Structure</a>
-
 ```
 │ public/
 │   └── ...
