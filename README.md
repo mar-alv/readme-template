@@ -157,7 +157,7 @@ A very short description of what is happening in the image
         <strong>Marcelo Alvarez</strong>
         <br>
         <em>Front-end Developer</em><br>
-        <span>"Programming: where the coffee is strong and the bugs are weak."</span><br>
+        <span>"Some AI generated funny quote here 😌"</span><br>
         <a href="https://www.linkedin.com/in/marcelo-dos-santos-alvarez-474406180/">LinkedIn</a> |
         <a href="/">Portfolio</a>
     </div>
