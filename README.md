@@ -36,7 +36,7 @@ npm i # Ou npm install
 ```
 
 ##### <a id='pt-br-localmente' style='text-decoration: none; color: inherit;'>🚀 Rodar Localmente</a>
-Cole o comando em um terminal, a aplicação estará acessível através desse link: http://localhost:5173 
+Cole o comando em um terminal, a aplicação estará acessível através desse [link](http://localhost:5173)
 ```sh
 npm run dev
 ```
@@ -54,7 +54,7 @@ npm run tests-e2e
 ```
 
 ##### <a id='pt-br-storybook' style='text-decoration: none; color: inherit;'>📔 Rodar Storybook</a>
-Cole o comando num terminal, a documentação dos componentes do projeto estará acessível através desse link: http://localhost:6006 
+Cole o comando num terminal, a documentação dos componentes do projeto estará acessível através desse [link](http://localhost:6006)
 ```sh
 npm run storybook
 ```
@@ -114,7 +114,7 @@ npm i # Or npm install
 ```
 
 ##### <a id='en-locally' style='text-decoration: none; color: inherit;'>🚀 Run Locally</a>
-Paste the command into a terminal, the application will be accessable through this link: http://localhost:5173 
+Paste the command into a terminal, the application will be accessable through this [link](http://localhost:5173)
 ```sh
 npm run dev
 ```
@@ -132,7 +132,7 @@ npm run tests-e2e
 ```
 
 ##### <a id='en-storybook' style='text-decoration: none; color: inherit;'>📔 Run Storybook</a>
-Paste the command into a terminal, the project's components documentation will be accessible through this link: http://localhost:6006 
+Paste the command into a terminal, the project's components documentation will be accessible through this [link](http://localhost:6006)
 ```sh
 npm run storybook
 ```
