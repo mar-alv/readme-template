@@ -29,7 +29,7 @@ Descreva bem o projeto aqui, comente de onde veio a ideia, qual sua finalidade, 
 
 #### <a id='pt-br-instrucoes' style='text-decoration: none; color: inherit;'>📖 Instruções</a>
 ##### <a id='pt-br-instalar' style='text-decoration: none; color: inherit;'>📥 Instalar</a>
-Cole o 1º comando em um terminal aberto dentro de uma pasta de sua preferência para clonar o projeto, em seguida rode uma das versões do 2º comando para instalar as dependências
+Cole o 1º comando em um terminal aberto dentro da pasta de sua preferência para clonar o projeto, em seguida rode uma das versões do 2º comando para instalar as dependências
 ```sh
 git clone https://github.com/mar-alv/REPO.git
 npm i # Ou npm install
@@ -42,7 +42,7 @@ npm run dev
 ```
 
 ##### <a id='pt-br-testes-unitarios' style='text-decoration: none; color: inherit;'>📋 Rodar Testes Unitários</a>
-Cole o comando em um terminal, eles serão executados um atrás do outro apontando se houve testes falhos
+Cole o comando em um terminal, eles serão executados um após o outro apontando se houve testes falhos
 ```sh
 npm run tests
 ```
@@ -107,7 +107,7 @@ Describe well the project here, comment where the idea came, its objective, its 
 
 #### <a id='en-instructions' style='text-decoration: none; color: inherit;'>📖 Instructions</a>
 ##### <a id='en-instalar' style='text-decoration: none; color: inherit;'>📥 Install</a>
-Paste the 1º command into a terminal open within a folder of your preference to clone the project, then run one of the versions of the 2º command to install the dependencies
+Paste the 1º command into a terminal opened within a folder of your preference to clone the project, then run one of the versions of the 2º command to install the dependencies
 ```sh
 git clone https://github.com/mar-alv/REPO.git
 npm i # Or npm install
