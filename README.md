@@ -8,87 +8,9 @@
 
   [🎨 Design](link-to-Figma)
 
-  [🇧🇷 Português](#pt-br) / [🇬🇧 English](#en)
+  [🇬🇧 English](#en) / [🇧🇷 Português](#pt-br)
 
 </div>
-
-## <a id='pt-br' style='text-decoration: none; color: inherit;'>🇧🇷 Português</a>
-
-### 📚 Sumário
-- [❕ Sobre](#pt-br-sobre)
-- [📖 Instruções](#pt-br-instrucoes)
-  - [📥 Instalar](#pt-br-instalar)
-  - [🚀 Rodar Localmente](#pt-br-localmente)
-  - [📋 Rodar Testes Unitários](#pt-br-testes-unitarios)
-  - [🏁 Rodar Testes End-To-End](#pt-br-testes-e2e)
-  - [📔 Rodar Storybook](#pt-br-storybook)
-- [📂 Estrutura](#pt-br-estrutura)
-
-#### <a id='pt-br-sobre' style='text-decoration: none; color: inherit;'>❕ Sobre</a>
-Descreva bem o projeto aqui, comente de onde veio a ideia, qual sua finalidade, qual suas funcionalidades, alguns prints mostrando elas na ordem do fluxo mais comum da aplicação
-
-#### <a id='pt-br-instrucoes' style='text-decoration: none; color: inherit;'>📖 Instruções</a>
-##### <a id='pt-br-instalar' style='text-decoration: none; color: inherit;'>📥 Instalar</a>
-Cole o 1º comando em um terminal aberto dentro da pasta de sua preferência para clonar o projeto, em seguida rode uma das versões do 2º comando para instalar as dependências
-```sh
-git clone https://github.com/mar-alv/REPO.git
-npm i # Ou npm install
-```
-
-##### <a id='pt-br-localmente' style='text-decoration: none; color: inherit;'>🚀 Rodar Localmente</a>
-Cole o comando em um terminal, a aplicação estará acessível através desse [link](http://localhost:5173)
-```sh
-npm run dev
-```
-
-##### <a id='pt-br-testes-unitarios' style='text-decoration: none; color: inherit;'>📋 Rodar Testes Unitários</a>
-Cole o comando em um terminal, eles serão executados um após o outro apontando se houve testes falhos
-```sh
-npm run tests
-```
-
-##### <a id='pt-br-testes-e2e' style='text-decoration: none; color: inherit;'>🏁 Rodar Testes End-To-End</a>
-Cole o comando num terminal, os testes serão abertos numa aba do navegador automaticamente, controlando ela como um usuário real, clicando em botões, interagindo com formulários, etc... Os resultados aparecerão na própria interface
-```sh
-npm run tests-e2e
-```
-
-##### <a id='pt-br-storybook' style='text-decoration: none; color: inherit;'>📔 Rodar Storybook</a>
-Cole o comando num terminal, a documentação dos componentes do projeto estará acessível através desse [link](http://localhost:6006)
-```sh
-npm run storybook
-```
-
-#### <a id='pt-br-estrutura' style='text-decoration: none; color: inherit;'>📂 Estrutura</a>
-```
-│ .storybook/
-│   └── ... arquivos que mantém o funcionamento do Storybook
-│ .tests/
-│   └── ... arquivos que mantém o funcionamento dos testes
-│ src/
-│   ├── assets/
-│   │     └── ... svgs usados
-│   ├── components/
-│   │     ├── componente x/
-│   │     │     ├── index.tsx
-│   │     │     └── styles.ts
-│   │     └── ...
-│   ├── contexts/
-│   │     └── ... contextos e providers
-│   ├── styles/
-│   │     └── ... estilos globais e default
-│   ├── interfaces/
-│   │     └── ... interfaces usadas
-│   └── ...
-│ stories/
-│   ├── components/
-│   │     └── ... stories dos componentes
-│   ├── ... stories genéricos(cor, ícones e tipografia)
-│   └── ... stories-utils.tsx // funções utilitárias pros stories
-│ tests/
-│   ├── ... testes unitários
-│   └── ... tests-utils.tsx // funções utilitárias pros testes
-```
 
 ## <a id='en' style='text-decoration: none; color: inherit;'>🇬🇧 English</a>
 
@@ -166,6 +88,84 @@ npm run storybook
 │ tests/
 │   ├── ... unit tests
 │   └── ... tests-utils.tsx // util functions for tests
+```
+
+## <a id='pt-br' style='text-decoration: none; color: inherit;'>🇧🇷 Português</a>
+
+### 📚 Sumário
+- [❕ Sobre](#pt-br-sobre)
+- [📖 Instruções](#pt-br-instrucoes)
+  - [📥 Instalar](#pt-br-instalar)
+  - [🚀 Rodar Localmente](#pt-br-localmente)
+  - [📋 Rodar Testes Unitários](#pt-br-testes-unitarios)
+  - [🏁 Rodar Testes End-To-End](#pt-br-testes-e2e)
+  - [📔 Rodar Storybook](#pt-br-storybook)
+- [📂 Estrutura](#pt-br-estrutura)
+
+#### <a id='pt-br-sobre' style='text-decoration: none; color: inherit;'>❕ Sobre</a>
+Descreva bem o projeto aqui, comente de onde veio a ideia, qual sua finalidade, qual suas funcionalidades, alguns prints mostrando elas na ordem do fluxo mais comum da aplicação
+
+#### <a id='pt-br-instrucoes' style='text-decoration: none; color: inherit;'>📖 Instruções</a>
+##### <a id='pt-br-instalar' style='text-decoration: none; color: inherit;'>📥 Instalar</a>
+Cole o 1º comando em um terminal aberto dentro da pasta de sua preferência para clonar o projeto, em seguida rode uma das versões do 2º comando para instalar as dependências
+```sh
+git clone https://github.com/mar-alv/REPO.git
+npm i # Ou npm install
+```
+
+##### <a id='pt-br-localmente' style='text-decoration: none; color: inherit;'>🚀 Rodar Localmente</a>
+Cole o comando em um terminal, a aplicação estará acessível através desse [link](http://localhost:5173)
+```sh
+npm run dev
+```
+
+##### <a id='pt-br-testes-unitarios' style='text-decoration: none; color: inherit;'>📋 Rodar Testes Unitários</a>
+Cole o comando em um terminal, eles serão executados um após o outro apontando se houve testes falhos
+```sh
+npm run tests
+```
+
+##### <a id='pt-br-testes-e2e' style='text-decoration: none; color: inherit;'>🏁 Rodar Testes End-To-End</a>
+Cole o comando num terminal, os testes serão abertos numa aba do navegador automaticamente, controlando ela como um usuário real, clicando em botões, interagindo com formulários, etc... Os resultados aparecerão na própria interface
+```sh
+npm run tests-e2e
+```
+
+##### <a id='pt-br-storybook' style='text-decoration: none; color: inherit;'>📔 Rodar Storybook</a>
+Cole o comando num terminal, a documentação dos componentes do projeto estará acessível através desse [link](http://localhost:6006)
+```sh
+npm run storybook
+```
+
+#### <a id='pt-br-estrutura' style='text-decoration: none; color: inherit;'>📂 Estrutura</a>
+```
+│ .storybook/
+│   └── ... arquivos que mantém o funcionamento do Storybook
+│ .tests/
+│   └── ... arquivos que mantém o funcionamento dos testes
+│ src/
+│   ├── assets/
+│   │     └── ... svgs usados
+│   ├── components/
+│   │     ├── componente x/
+│   │     │     ├── index.tsx
+│   │     │     └── styles.ts
+│   │     └── ...
+│   ├── contexts/
+│   │     └── ... contextos e providers
+│   ├── styles/
+│   │     └── ... estilos globais e default
+│   ├── interfaces/
+│   │     └── ... interfaces usadas
+│   └── ...
+│ stories/
+│   ├── components/
+│   │     └── ... stories dos componentes
+│   ├── ... stories genéricos(cor, ícones e tipografia)
+│   └── ... stories-utils.tsx // funções utilitárias pros stories
+│ tests/
+│   ├── ... testes unitários
+│   └── ... tests-utils.tsx // funções utilitárias pros testes
 ```
 
 ## 🧰 Technologies
