@@ -22,6 +22,7 @@
   - [📋 Run Unit Tests](#en-unit-tests)
   - [🏁 Run End-To-End Tests](#en-e2e-tests)
   - [📔 Run Storybook](#en-storybook)
+- [⚡ Endpoints](#en-endpoints)
 - [📂 Structure](#en-structure)
 
 #### <a id='en-about' style='text-decoration: none; color: inherit;'>❕ About</a>
@@ -29,10 +30,17 @@ Describe well the project here, comment where the idea came, its objective, its 
 
 #### <a id='en-instructions' style='text-decoration: none; color: inherit;'>📖 Instructions</a>
 ##### <a id='en-instalar' style='text-decoration: none; color: inherit;'>📥 Install</a>
-Paste the 1º command into a terminal opened within a folder of your preference to clone the project, then run one of the versions of the 2º command to install the dependencies
+Paste this 1º command into a terminal opened within a folder of your preference to clone the project
 ```sh
 git clone https://github.com/mar-alv/REPO.git
-npm i # Or npm install
+```
+
+Then run one of the versions of the 2º command to install the dependencies
+```sh
+npm i
+```
+```sh
+npm install
 ```
 
 ##### <a id='en-locally' style='text-decoration: none; color: inherit;'>🚀 Run Locally</a>
@@ -57,6 +65,167 @@ npm run tests-e2e
 Paste the command into a terminal, the project's components documentation will be accessible through this [link](http://localhost:6006)
 ```sh
 npm run storybook
+```
+
+#### <a id='en-endpoints' style='text-decoration: none; color: inherit;'>⚡ Endpoints</a>
+In order to make requests to the server with 🥧 HTTPie directly from the terminal, you would have to follow its CLI [installation guide](https://httpie.io/docs/cli/main-features)
+##### POST endpoint title
+POST endpoint description of what it does
+```sh
+curl -X POST http://localhost:3001/route -h "Content-Type: application/json" -d '{"request_body":"here"}'
+```
+
+With 🥧 HTTPie
+```sh
+http POST http://localhost:3001/route < httpie/post.json
+```
+
+Responses
+```
+# When successfully doing it
+
+HTTP/1.1 201 Created
+Connection: keep-alive
+Content-type: application/json
+
+# When not providing a valid request body
+
+HTTP/1.1 400 Bad Request
+Content-type: application/json
+```
+
+##### GET endpoint title
+GET endpoint description of what it does
+```sh
+curl -X GET 'http://localhost:3001/route' -h "Content-Type: application/json"
+```
+```sh
+curl -X GET 'http://localhost:3001/route?query_parameter=here' -h "Content-Type: application/json"
+```
+
+With 🥧 HTTPie
+```sh
+http GET http://localhost:3001/route
+```
+```sh
+http GET http://localhost:3001/route?query_parameter=here
+```
+
+Responses
+```
+# When successfully doing it
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-type: application/json
+
+{
+	...
+}
+
+# Nothing found
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-type: application/json
+
+{}
+```
+
+##### PUT endpoint title
+PUT endpoint description of what it does
+```sh
+curl -X PUT http://localhost:3001/route/123- -h "Content-Type: application/json" -d '{"request_body":"here"}'
+```
+
+With 🥧 HTTPie
+```sh
+http PUT http://localhost:3001/tasks/123 < httpie/put.json
+```
+
+Responses
+```
+# When successfully doing it
+
+HTTP/1.1 204 No Content
+Connection: keep-alive
+Content-type: application/json
+
+# When not providing a valid request body
+
+HTTP/1.1 400 Bad Request
+Connection: keep-alive
+Content-type: application/json
+
+# When not finding it by the id
+
+HTTP/1.1 404 Not Found
+Connection: keep-alive
+Content-type: application/json
+```
+
+##### DELETE endpoint title
+DELETE endpoint description of what it does
+```sh
+curl -X DELETE http://localhost:3001/route/123 -h "Content-Type: application/json"
+```
+
+With 🥧 HTTPie
+```sh
+http DELETE http://localhost:3001/tasks/123
+```
+
+Responses
+```
+# When successfully doing it
+
+HTTP/1.1 204 No Content
+Connection: keep-alive
+Content-type: application/json
+
+# When not finding it by the id
+
+HTTP/1.1 404 Not Found
+Connection: keep-alive
+Content-type: application/json
+```
+
+##### PATCH endpoint title
+PATCH endpoint description of what it does
+```sh
+curl -X PATCH http://localhost:3001/route/123/something -h "Content-Type: application/json"
+```
+
+With 🥧 HTTPie
+```sh
+http PATCH http://localhost:3001/route/123/something
+```
+
+Responses
+```
+# When successfully doing it
+
+HTTP/1.1 204 No Content
+Connection: keep-alive
+Content-type: application/json
+
+# When not finding it by the id
+
+HTTP/1.1 404 Not Found
+Connection: keep-alive
+Content-type: application/json
+```
+
+##### Non existing route
+When trying to access a route that doesn't exists in the server
+
+Response
+```
+HTTP/1.1 404 Not Found
+Connection: keep-alive
+Content-type: application/json
+
+"Route not found"
 ```
 
 #### <a id='en-structure' style='text-decoration: none; color: inherit;'>📂 Structure</a>
@@ -100,6 +269,7 @@ npm run storybook
   - [📋 Rodar Testes Unitários](#pt-br-testes-unitarios)
   - [🏁 Rodar Testes End-To-End](#pt-br-testes-e2e)
   - [📔 Rodar Storybook](#pt-br-storybook)
+- [⚡ Endpoints](#pt-br-endpoints)
 - [📂 Estrutura](#pt-br-estrutura)
 
 #### <a id='pt-br-sobre' style='text-decoration: none; color: inherit;'>❕ Sobre</a>
@@ -107,10 +277,17 @@ Descreva bem o projeto aqui, comente de onde veio a ideia, qual sua finalidade, 
 
 #### <a id='pt-br-instrucoes' style='text-decoration: none; color: inherit;'>📖 Instruções</a>
 ##### <a id='pt-br-instalar' style='text-decoration: none; color: inherit;'>📥 Instalar</a>
-Cole o 1º comando em um terminal aberto dentro da pasta de sua preferência para clonar o projeto, em seguida rode uma das versões do 2º comando para instalar as dependências
+Cole o 1º comando em um terminal aberto dentro da pasta de sua preferência para clonar o projeto
 ```sh
 git clone https://github.com/mar-alv/REPO.git
-npm i # Ou npm install
+```
+
+Em seguida rode uma das versões do 2º comando para instalar as dependências
+```sh
+npm i
+```
+```sh
+npm install
 ```
 
 ##### <a id='pt-br-localmente' style='text-decoration: none; color: inherit;'>🚀 Rodar Localmente</a>
@@ -135,6 +312,167 @@ npm run tests-e2e
 Cole o comando num terminal, a documentação dos componentes do projeto estará acessível através desse [link](http://localhost:6006)
 ```sh
 npm run storybook
+```
+
+##### <a id='pt-br-endpoints' style='text-decoration: none; color: inherit;'>⚡ Endpoints</a>
+Para fazer requisições ao servidor com 🥧 HTTPie diretamente do terminal, é necessário seguir o [guia de instalação](https://httpie.io/docs/cli/main-features) da CLI
+##### Título do endpoint POST
+Descrição do que o endpoint POST faz
+```sh
+curl -X POST http://localhost:3001/rota -h "Content-Type: application/json" -d '{"corpo_da_requisicao":"aqui"}'
+```
+
+Com 🥧 HTTPie
+```sh
+http POST http://localhost:3001/rota < httpie/post.json
+```
+
+Respostas
+```
+# Ao fazer isso com sucesso
+
+HTTP/1.1 201 Created
+Connection: keep-alive
+Content-type: application/json
+
+# Ao enviar um corpo de requisição inválido
+
+HTTP/1.1 400 Bad Request
+Content-type: application/json
+```
+
+##### Título do endpoint GET
+Descrição do que o endpoint GET faz
+```sh
+curl -X GET 'http://localhost:3001/rota' -h "Content-Type: application/json"
+```
+```sh
+curl -X GET 'http://localhost:3001/rota?parametro=aqui' -h "Content-Type: application/json"
+```
+
+Com 🥧 HTTPie
+```sh
+http GET http://localhost:3001/rota
+```
+```sh
+http GET http://localhost:3001/rota?parametro=aqui
+```
+
+Respostas
+```
+# Ao fazer isso com sucesso
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-type: application/json
+
+{
+	...
+}
+
+# Não encontrando nada
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-type: application/json
+
+{}
+```
+
+##### Título do endpoint PUT
+Descrição do que o endpoint PUT faz
+```sh
+curl -X PUT http://localhost:3001/rota/123- -h "Content-Type: application/json" -d '{"corpo_da_requisicao":"aqui"}'
+```
+
+Com 🥧 HTTPie
+```sh
+http PUT http://localhost:3001/rota/123 < httpie/put.json
+```
+
+Respostas
+```
+# Ao fazer isso com sucesso
+
+HTTP/1.1 204 No Content
+Connection: keep-alive
+Content-type: application/json
+
+# Ao enviar um corpo de requisição inválido
+
+HTTP/1.1 400 Bad Request
+Connection: keep-alive
+Content-type: application/json
+
+# Ao não encontrar isso pelo seu id
+
+HTTP/1.1 404 Not Found
+Connection: keep-alive
+Content-type: application/json
+```
+
+##### Título do endpoint DELETE
+Descrição do que o endpoint DELETE faz
+```sh
+curl -X DELETE http://localhost:3001/rota/123 -h "Content-Type: application/json"
+```
+
+Com 🥧 HTTPie
+```sh
+http DELETE http://localhost:3001/rota/123
+```
+
+Respostas
+```
+# Ao fazer isso com sucesso
+
+HTTP/1.1 204 No Content
+Connection: keep-alive
+Content-type: application/json
+
+# Ao não encontrar isso pelo seu id
+
+HTTP/1.1 404 Not Found
+Connection: keep-alive
+Content-type: application/json
+```
+
+##### Título do endpoint PATCH
+Descrição do que o endpoint PATCH faz
+```sh
+curl -X PATCH http://localhost:3001/rota/123/algo -h "Content-Type: application/json"
+```
+
+Com 🥧 HTTPie
+```sh
+http PATCH http://localhost:3001/rota/123/algo
+```
+
+Respostas
+```
+# Ao fazer isso com sucesso
+
+HTTP/1.1 204 No Content
+Connection: keep-alive
+Content-type: application/json
+
+# Ao não encontrar isso pelo seu id
+
+HTTP/1.1 404 Not Found
+Connection: keep-alive
+Content-type: application/json
+```
+
+##### Rota não existente
+Ao tentar acessar uma rota que não existe no servidor
+
+Resposta
+```
+HTTP/1.1 404 Not Found
+Connection: keep-alive
+Content-type: application/json
+
+"Route not found"
 ```
 
 #### <a id='pt-br-estrutura' style='text-decoration: none; color: inherit;'>📂 Estrutura</a>
