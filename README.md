@@ -574,13 +574,13 @@ A very short description of what is happening in the image
 				<br>
 				<em>Front-end Developer</em><br>
 				<span>"Some AI generated funny quote here 😗"</span><br>
-				<a href='https://www.linkedin.com/in/mar-alv'>
+				<a href='https://www.linkedin.com/in/mar-alv' target='_blank'>
 					<img
 						alt='LinkedIn'
 						src='https://img.shields.io/badge/LinkedIn-Marcelo%20Alvarez-0077B5?logo=linkedin&logoColor=white'
 					/>
 				</a>
-				<a href='https://mar-alv.github.io/'>
+				<a href='https://mar-alv.github.io/' target='_blank'>
 					<img
 						alt='Portfolio'
 						src='https://img.shields.io/badge/Portfolio-Marcelo%20Alvarez-000?style=flat&logo=portfolio&logoColor=white'
