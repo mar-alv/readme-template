@@ -259,11 +259,11 @@ Content-type: application/json
 │   └── ...
 ```
 
-## <a id='technologies' style='text-decoration: none; color: inherit;'>🧰 Technologies</a>
-### Build Tools
+### <a id='technologies' style='text-decoration: none; color: inherit;'>🧰 Technologies</a>
+#### Build Tools
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 
-### Components
+#### Components
 [![Font Awesome](https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=font-awesome&logoColor=white)](https://fontawesome.com/)
 [![Lucide React](https://img.shields.io/badge/Lucide-2C3E50?style=for-the-badge&logo=lucide&logoColor=white)](https://lucide.dev/)
 [![Phosphor Icons](https://img.shields.io/badge/Phosphor%20Icons-c4e456?style=for-the-badge&logo=phosphoricons&logoColor=black)](https://phosphoricons.com/)
@@ -273,36 +273,36 @@ Content-type: application/json
 [![Styled-Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)](https://styled-components.com/)
 [![Toastify](https://img.shields.io/badge/Toastify-FF5733?style=for-the-badge&logo=react&logoColor=white)](https://fkhadra.github.io/react-toastify/introduction)
 
-### Documentation
+#### Documentation
 [![Storybook](https://img.shields.io/badge/Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white)](https://storybook.js.org/)
 [![MSW](https://img.shields.io/badge/MSW-ff6a33?style=for-the-badge&logo=msw&logoColor=white)](https://mswjs.io/)
 
-### Back-end Framework
+#### Back-end Framework
 [![Fastify](https://img.shields.io/badge/fastify-000000?style=for-the-badge&logo=fastify&logoColor=white)](https://www.fastify.io/)
 
-### Front-end Framework
+#### Front-end Framework
 [![NextJS](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
 [![React.js](https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
 [![React Router DOM](https://img.shields.io/badge/React%20Router%20DOM-61DAFB?style=for-the-badge&logo=react-router&logoColor=white&color=red)](https://reactrouter.com/en/main)
 [![React Query](https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=react-query&logoColor=white)](https://tanstack.com/query/v3)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
-### Database
+#### Database
 [![Knex](https://img.shields.io/badge/knex-ff5722?style=for-the-badge&logo=knex&logoColor=white)](https://knexjs.org/)
 [![SQLite](https://img.shields.io/badge/sqlite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
 
-### Styling
+#### Styling
 [![PostCSS](https://img.shields.io/badge/PostCSS-DD3A0A?style=for-the-badge&logo=postcss&logoColor=white)](https://postcss.org/)
 [![Tailwind CSS](https://img.shields.io/badge/tailwind--css-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 
-### Testing
+#### Testing
 [![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)](https://playwright.dev/)
 [![React Testing Library](https://img.shields.io/badge/React%20Testing%20Library-E33332?style=for-the-badge&logo=testing-library&logoColor=white)](https://testing-library.com/docs/react-testing-library/intro)
 [![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)](https://jestjs.io/)
 [![Vitest](https://img.shields.io/badge/vitest-506E10?style=for-the-badge&logo=vitest&logoColor=FCC72B)](https://vitest.dev/)
 [![MSW](https://img.shields.io/badge/MSW-ff6a33?style=for-the-badge&logo=msw&logoColor=white)](https://mswjs.io/)
 
-### Utilities
+#### Utilities
 [![date-fns](https://img.shields.io/badge/date--fns-770c56?style=for-the-badge&logo=date-fns&logoColor=white)](https://date-fns.org/)
 [![Day.js](https://img.shields.io/badge/Day.js-FF6F00?style=for-the-badge&logo=dayjs&logoColor=white)](https://day.js.org/)
 [![dotenv](https://img.shields.io/badge/dotenv-ECD53F?style=for-the-badge&logo=.env&logoColor=black)](https://github.com/motdotla/dotenv)
@@ -312,14 +312,13 @@ Content-type: application/json
 [![TSX](https://img.shields.io/badge/tsx-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.npmjs.com/package/tsx)
 [![Zod](https://img.shields.io/badge/Zod-007ACC?style=for-the-badge&logo=superman&logoColor=white)](https://zod.dev/)
 
-## <a id='screenshots-prints' style='text-decoration: none; color: inherit;'>📸 Screenshots and 🎥 Recordings</a>
-For a longer video demonstration click here and like my post on
-<a href='link-to-project-post-on-linkedin'>LinkedIn</a>
+### <a id='screenshots-prints' style='text-decoration: none; color: inherit;'>📸 Screenshots and 🎥 Recordings</a>
+For a longer video demonstration click here and like my post on <a href='link-to-project-post-on-linkedin'>LinkedIn</a>
 
 ![example-screenshot](https://as2.ftcdn.net/v2/jpg/02/66/72/41/1000_F_266724172_Iy8gdKgMa7XmrhYYxLCxyhx6J7070Pr8.jpg)
 <p align='center'>A very short description of what is happening in the image</p>
 
-## <a id='author' style='text-decoration: none; color: inherit;'>👤 Author</a>
+### <a id='author' style='text-decoration: none; color: inherit;'>👤 Author</a>
 <div style='display: flex; align-items: center;'>
 		<img src='https://github.com/mar-alv.png' alt='Marcelo Alvarez GitHub profile picture' style='width: 150px; border-radius: 50%; margin-right: 20px;'>
 		<div>
@@ -342,5 +341,5 @@ For a longer video demonstration click here and like my post on
 		</div>
 </div>
 
-## <a id='license' style='text-decoration: none; color: inherit;'>📄 License</a>
+### <a id='license' style='text-decoration: none; color: inherit;'>📄 License</a>
 Licensed under [MIT](./LICENSE)
