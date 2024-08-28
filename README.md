@@ -317,7 +317,7 @@ For a longer video demonstration click here and like my post on
 <a href='link-to-project-post-on-linkedin'>LinkedIn</a>
 
 ![example-screenshot](https://as2.ftcdn.net/v2/jpg/02/66/72/41/1000_F_266724172_Iy8gdKgMa7XmrhYYxLCxyhx6J7070Pr8.jpg)
-A very short description of what is happening in the image
+<p align='center'>A very short description of what is happening in the image</p>
 
 ## <a id='author' style='text-decoration: none; color: inherit;'>👤 Author</a>
 <div style='display: flex; align-items: center;'>

@@ -12,9 +12,7 @@
 
 </div>
 
-## <a style='text-decoration: none; color: inherit;'>🇵🇹 Português</a>
-
-### 📚 Sumário
+## 📚 Sumário
 - [❕ Sobre](#about)
 - [📖 Instruções](#instructions)
   - [📥 Instalar](#install)
@@ -29,11 +27,11 @@
 - [👤 Autor](#author)
 - [📄 Licença](#license)
 
-#### <a id='about' style='text-decoration: none; color: inherit;'>❕ Sobre</a>
+### <a id='about' style='text-decoration: none; color: inherit;'>❕ Sobre</a>
 Descreva bem o projeto aqui, comente de onde veio a ideia, qual sua finalidade, qual suas funcionalidades, alguns prints mostrando elas na ordem do fluxo mais comum da aplicação
 
-#### <a id='instructions' style='text-decoration: none; color: inherit;'>📖 Instruções</a>
-##### <a id='install' style='text-decoration: none; color: inherit;'>📥 Instalar</a>
+### <a id='instructions' style='text-decoration: none; color: inherit;'>📖 Instruções</a>
+#### <a id='install' style='text-decoration: none; color: inherit;'>📥 Instalar</a>
 Cole o 1º comando em um terminal aberto dentro da pasta de sua preferência para clonar o projeto
 ```sh
 git clone https://github.com/mar-alv/REPO.git
@@ -47,31 +45,31 @@ npm i
 npm install
 ```
 
-##### <a id='locally' style='text-decoration: none; color: inherit;'>🚀 Rodar Localmente</a>
+#### <a id='locally' style='text-decoration: none; color: inherit;'>🚀 Rodar Localmente</a>
 Cole o comando em um terminal, a aplicação estará acessível através desse [link](http://localhost:5173)
 ```sh
 npm run dev
 ```
 
-##### <a id='unit-tests' style='text-decoration: none; color: inherit;'>📋 Rodar Testes Unitários</a>
+#### <a id='unit-tests' style='text-decoration: none; color: inherit;'>📋 Rodar Testes Unitários</a>
 Cole o comando em um terminal, eles serão executados um após o outro apontando se houve testes falhos
 ```sh
 npm run tests
 ```
 
-##### <a id='e2e-tests' style='text-decoration: none; color: inherit;'>🏁 Rodar Testes End-To-End</a>
+#### <a id='e2e-tests' style='text-decoration: none; color: inherit;'>🏁 Rodar Testes End-To-End</a>
 Cole o comando num terminal, os testes serão abertos numa aba do navegador automaticamente, controlando ela como um usuário real, clicando em botões, interagindo com formulários, etc... Os resultados aparecerão na própria interface
 ```sh
 npm run tests-e2e
 ```
 
-##### <a id='storybook' style='text-decoration: none; color: inherit;'>📔 Rodar Storybook</a>
+#### <a id='storybook' style='text-decoration: none; color: inherit;'>📔 Rodar Storybook</a>
 Cole o comando num terminal, a documentação dos componentes do projeto estará acessível através desse [link](http://localhost:6006)
 ```sh
 npm run storybook
 ```
 
-##### <a id='endpoints' style='text-decoration: none; color: inherit;'>⚡ Endpoints</a>
+#### <a id='endpoints' style='text-decoration: none; color: inherit;'>⚡ Endpoints</a>
 Para fazer requisições ao servidor com 🥧 HTTPie diretamente do terminal, é necessário seguir o [guia de instalação](https://httpie.io/docs/cli/main-features) da CLI
 ##### Título do endpoint POST
 Descrição do que o endpoint POST faz
@@ -319,7 +317,7 @@ Para uma demonstração mais longa clique aqui e curta meu post no
 <a href='link-to-project-post-on-linkedin'>LinkedIn</a>
 
 ![example-screenshot](https://as2.ftcdn.net/v2/jpg/02/66/72/41/1000_F_266724172_Iy8gdKgMa7XmrhYYxLCxyhx6J7070Pr8.jpg)
-Um descrição muito breve do que está acontecendo na imagem
+<p align='center'>Um descrição muito breve do que está acontecendo na imagem</p>
 
 ## <a id='author' style='text-decoration: none; color: inherit;'>👤 Autor</a>
 <div style='display: flex; align-items: center;'>
