@@ -343,4 +343,4 @@ Para uma demonstração mais longa clique aqui e curta meu post no
 </div>
 
 ## <a id='license' style='text-decoration: none; color: inherit;'>📄 Licença</a>
-Licenciado via [MIT](./LICENSE)
+Licenciado via [MIT](../LICENSE)
