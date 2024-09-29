@@ -54,7 +54,7 @@ npm run dev
 #### <a id='unit-tests' style='text-decoration: none; color: inherit;'>📋 Rodar Testes Unitários</a>
 Cole o comando em um terminal, eles serão executados um após o outro apontando se houve testes falhos
 ```sh
-npm run tests
+npm run test
 ```
 
 #### <a id='e2e-tests' style='text-decoration: none; color: inherit;'>🏁 Rodar Testes End-To-End</a>

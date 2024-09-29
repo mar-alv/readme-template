@@ -54,7 +54,7 @@ npm run dev
 #### <a id='unit-tests' style='text-decoration: none; color: inherit;'>📋 Run Unit Tests</a>
 Paste the command into a terminal, they will be exectued one after the other mentioning if there were failed tests
 ```sh
-npm run tests
+npm run test
 ```
 
 #### <a id='e2e-tests' style='text-decoration: none; color: inherit;'>🏁 Run End-To-End Tests</a>
