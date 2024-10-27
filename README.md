@@ -279,6 +279,7 @@ Content-type: application/json
 
 #### Back-end Framework
 [![Fastify](https://img.shields.io/badge/fastify-000000?style=for-the-badge&logo=fastify&logoColor=white)](https://www.fastify.io/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 
 #### Front-end Framework
 [![Astro](https://img.shields.io/badge/Astro-FF5F5F?style=for-the-badge&logo=astro&logoColor=white)](https://astro.build/)
