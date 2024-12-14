@@ -8,7 +8,7 @@
 
   [🎨 Design](link-to-Figma)
 
-  [🇵🇹 Português](./docs/README-pt.md)
+  [🇧🇷 Português](./docs/README-pt.md)
 
 </div>
 
